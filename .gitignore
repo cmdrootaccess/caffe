@@ -80,6 +80,7 @@ distribute/*
 *.bin
 python/caffe/proto/
 cmake_build
+cmake-build-debug
 .cmake_build
 
 # Generated documentation
