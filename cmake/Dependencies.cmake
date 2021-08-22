@@ -145,6 +145,7 @@ endif()
 
 # ---[ Python
 if(BUILD_python)
+
   if(NOT "${python_version}" VERSION_LESS "3.0.0")
     # use python3
     find_package(PythonInterp 3.0)

@@ -1,0 +1,75 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/hamidwakili/Documents/caffe
+CMake Warning (dev) at cmake/Misc.cmake:32 (set):
+  implicitly converting 'BOOLEAN' to 'STRING' type.
+Call Stack (most recent call first):
+  CMakeLists.txt:25 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Boost: /usr/local/lib/cmake/Boost-1.76.0/BoostConfig.cmake (found suitable version "1.76.0", minimum required is "1.54") found components: system thread filesystem 
+-- Found gflags  (include: /usr/local/include, library: /usr/local/lib/libgflags.dylib)
+-- Found glog    (include: /usr/local/include, library: /usr/local/lib/libglog.dylib)
+-- Found PROTOBUF Compiler: /usr/local/bin/protoc
+-- HDF5: Using hdf5 compiler wrapper to determine C configuration
+-- HDF5: Using hdf5 compiler wrapper to determine CXX configuration
+-- Found lmdb    (include: /usr/local/include, library: /usr/local/lib/liblmdb.dylib)
+-- Found LevelDB (include: /usr/local/include, library: /usr/local/lib/libleveldb.dylib)
+-- Found Snappy  (include: /usr/local/include, library: /usr/local/lib/libsnappy.dylib)
+-- -- CUDA is disabled. Building without it...
+-- OpenCV found (/usr/local/Cellar/opencv/4.5.3_2/lib/cmake/opencv4)
+-- Found vecLib as part of Accelerate.framework
+-- NumPy ver. 1.19.2 found (include: /usr/local/lib/python3.9/site-packages/numpy/core/include)
+-- Could NOT find Boost: missing: python-py396 (found /usr/local/lib/cmake/Boost-1.76.0/BoostConfig.cmake (found suitable version "1.76.0", minimum required is "1.46"))
+-- Could NOT find Boost: missing: python-py39 (found /usr/local/lib/cmake/Boost-1.76.0/BoostConfig.cmake (found suitable version "1.76.0", minimum required is "1.46"))
+-- Could NOT find Boost: missing: python-py3 (found /usr/local/lib/cmake/Boost-1.76.0/BoostConfig.cmake (found suitable version "1.76.0", minimum required is "1.46"))
+-- Found Boost: /usr/local/lib/cmake/Boost-1.76.0/BoostConfig.cmake (found suitable version "1.76.0", minimum required is "1.46") found components: python 
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- 
+-- ******************* Caffe Configuration Summary *******************
+-- General:
+--   Version           :   1.0.0
+--   Git               :   1.0-136-g9b891540-dirty
+--   System            :   Darwin
+--   C++ compiler      :   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+--   Release CXX flags :   -O3 -DNDEBUG -fPIC -Wall -Wno-sign-compare -Wno-uninitialized
+--   Debug CXX flags   :   -g -fPIC -Wall -Wno-sign-compare -Wno-uninitialized
+--   Build type        :   Debug
+-- 
+--   BUILD_SHARED_LIBS :   ON
+--   BUILD_python      :   ON
+--   BUILD_matlab      :   OFF
+--   BUILD_docs        :   ON
+--   CPU_ONLY          :   ON
+--   USE_OPENCV        :   ON
+--   USE_LEVELDB       :   ON
+--   USE_LMDB          :   ON
+--   USE_NCCL          :   OFF
+--   ALLOW_LMDB_NOLOCK :   OFF
+--   USE_HDF5          :   ON
+-- 
+-- Dependencies:
+--   BLAS              :   Yes (vecLib)
+--   Boost             :   Yes (ver. 1.76)
+--   glog              :   Yes
+--   gflags            :   Yes
+--   protobuf          :   Yes (ver. ..)
+--   lmdb              :   Yes (ver. 0.9.29)
+--   LevelDB           :   Yes (ver. 1.23)
+--   Snappy            :   Yes (ver. 1.1.9)
+--   OpenCV            :   Yes (ver. 4.5.3)
+--   CUDA              :   No
+-- 
+-- Python:
+--   Interpreter       :   /usr/local/bin/python3 (ver. 3.9.6)
+--   Libraries         :   /usr/local/Frameworks/Python.framework/Versions/3.9/lib/libpython3.9.dylib (ver 3.9.6)
+--   NumPy             :   /usr/local/lib/python3.9/site-packages/numpy/core/include (ver 1.19.2)
+-- 
+-- Documentaion:
+--   Doxygen           :   No
+--   config_file       :   
+-- 
+-- Install:
+--   Install path      :   /Users/hamidwakili/Documents/caffe/cmake-build-debug/install
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/hamidwakili/Documents/caffe/cmake-build-debug

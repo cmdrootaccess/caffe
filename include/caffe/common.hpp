@@ -72,6 +72,12 @@ private:\
 // See PR #1236
 namespace cv { class Mat; }
 
+// Supporting OpenCV4
+
+
+#define CV_LOAD_IMAGE_GRAYSCALE cv::IMREAD_GRAYSCALE
+#define CV_LOAD_IMAGE_COLOR cv::IMREAD_COLOR
+
 namespace caffe {
 
 // We will use the boost shared_ptr instead of the new C++11 one mainly

@@ -1,0 +1,2455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Caffe"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\External\;CMake Files\cmake\Modules\;CMake Files\cmake\Templates\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\Boost-1.76.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_headers-1.76.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.76.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_thread-1.76.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.76.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_python-1.76.0\;CMake Files\src\;CMake Files\src\gtest\;CMake Files\src\caffe\;CMake Files\src\caffe\test\;CMake Files\tools\;CMake Files\examples\;CMake Files\python\;CMake Files\matlab\;CMake Files\docs\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="symlink_to_build">
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 symlink_to_build"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pytest">
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 pytest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lint">
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 lint"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/lib/libgtest-d.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/src"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/lib/libgtest-d.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/src"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="caffe">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/lib/libcaffe-d.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DWITH_PYTHON_LAYER"/>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/usr/local/Frameworks/Python.framework/Versions/3.9/include/python3.9"/>
+					<Add directory="/usr/local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/Makefile&quot;  VERBOSE=1 caffe"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="caffe/fast">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/lib/libcaffe-d.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DWITH_PYTHON_LAYER"/>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/usr/local/Frameworks/Python.framework/Versions/3.9/include/python3.9"/>
+					<Add directory="/usr/local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/Makefile&quot;  VERBOSE=1 caffe/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="caffeproto">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/lib/libcaffeproto-d.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/Makefile&quot;  VERBOSE=1 caffeproto"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="caffeproto/fast">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/lib/libcaffeproto-d.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/Makefile&quot;  VERBOSE=1 caffeproto/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runtest">
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/test"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/test/Makefile&quot;  VERBOSE=1 runtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test.testbin">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/test/test.testbin-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/test/Makefile&quot;  VERBOSE=1 test.testbin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test.testbin/fast">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/test/test.testbin-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/test/Makefile&quot;  VERBOSE=1 test.testbin/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/src/caffe/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="convert_imageset">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/convert_imageset-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 convert_imageset"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="convert_imageset/fast">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/convert_imageset-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 convert_imageset/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="upgrade_solver_proto_text">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/upgrade_solver_proto_text-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 upgrade_solver_proto_text"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="upgrade_solver_proto_text/fast">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/upgrade_solver_proto_text-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 upgrade_solver_proto_text/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="upgrade_net_proto_binary">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/upgrade_net_proto_binary-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 upgrade_net_proto_binary"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="upgrade_net_proto_binary/fast">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/upgrade_net_proto_binary-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 upgrade_net_proto_binary/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="upgrade_net_proto_text">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/upgrade_net_proto_text-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 upgrade_net_proto_text"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="upgrade_net_proto_text/fast">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/upgrade_net_proto_text-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 upgrade_net_proto_text/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="caffe.bin">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/caffe-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 caffe.bin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="caffe.bin/fast">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/caffe-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 caffe.bin/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="compute_image_mean">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/compute_image_mean-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 compute_image_mean"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="compute_image_mean/fast">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/compute_image_mean-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 compute_image_mean/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="extract_features">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/extract_features-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 extract_features"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="extract_features/fast">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/extract_features-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 extract_features/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="convert_mnist_data">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/mnist/convert_mnist_data-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 convert_mnist_data"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="convert_mnist_data/fast">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/mnist/convert_mnist_data-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 convert_mnist_data/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="convert_mnist_siamese_data">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/siamese/convert_mnist_siamese_data-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 convert_mnist_siamese_data"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="convert_mnist_siamese_data/fast">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/siamese/convert_mnist_siamese_data-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 convert_mnist_siamese_data/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="classification">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/cpp_classification/classification-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 classification"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="classification/fast">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/cpp_classification/classification-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 classification/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="convert_cifar_data">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/cifar10/convert_cifar_data-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 convert_cifar_data"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="convert_cifar_data/fast">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/cifar10/convert_cifar_data-d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 convert_cifar_data/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pycaffe">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/lib/_caffe-d.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/python"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/usr/local/Frameworks/Python.framework/Versions/3.9/include/python3.9"/>
+					<Add directory="/usr/local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/python/Makefile&quot;  VERBOSE=1 pycaffe"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/python/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/python/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pycaffe/fast">
+				<Option output="/Users/hamidwakili/Documents/caffe/cmake-build-debug/lib/_caffe-d.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hamidwakili/Documents/caffe/cmake-build-debug/python"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCAFFE_VERSION=1.0.0"/>
+					<Add option="-DUSE_HDF5"/>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DUSE_ACCELERATE"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PYTHON_DYN_LINK"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/cmake-build-debug"/>
+					<Add directory="/usr/local/Frameworks/Python.framework/Versions/3.9/include/python3.9"/>
+					<Add directory="/usr/local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers"/>
+					<Add directory="/Users/hamidwakili/Documents/caffe/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.12.1/include"/>
+					<Add directory="/usr/local/opt/szip/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/opencv/4.5.3_2/include/opencv4"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/python/Makefile&quot;  VERBOSE=1 pycaffe/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/python/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hamidwakili/Documents/caffe/cmake-build-debug/python/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake-build-debug/caffe_config.h">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include/caffe/proto/caffe.pb.cc">
+			<Option target="caffeproto"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include/caffe/proto/caffe.pb.cc.rule">
+			<Option target="caffeproto"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include/caffe/proto/caffe.pb.h">
+			<Option target="caffeproto"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake-build-debug/include/caffe/proto/caffe_pb2.py">
+			<Option target="caffeproto"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/examples/cifar10/convert_cifar_data.cpp">
+			<Option target="convert_cifar_data"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/examples/cpp_classification/classification.cpp">
+			<Option target="classification"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/examples/mnist/convert_mnist_data.cpp">
+			<Option target="convert_mnist_data"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/examples/siamese/convert_mnist_siamese_data.cpp">
+			<Option target="convert_mnist_siamese_data"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/blob.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/caffe.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/common.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/data_transformer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/filler.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/internal_thread.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layer_factory.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/absval_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/accuracy_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/argmax_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/base_conv_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/base_data_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/batch_norm_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/batch_reindex_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/bias_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/bnll_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/clip_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/concat_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/contrastive_loss_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/conv_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/crop_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/cudnn_conv_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/cudnn_deconv_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/cudnn_lcn_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/cudnn_lrn_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/cudnn_pooling_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/cudnn_relu_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/cudnn_sigmoid_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/cudnn_softmax_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/cudnn_tanh_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/data_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/deconv_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/dropout_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/dummy_data_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/eltwise_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/elu_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/embed_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/euclidean_loss_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/exp_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/filter_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/flatten_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/hdf5_data_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/hdf5_output_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/hinge_loss_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/im2col_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/image_data_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/infogain_loss_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/inner_product_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/input_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/log_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/loss_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/lrn_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/lstm_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/memory_data_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/multinomial_logistic_loss_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/mvn_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/neuron_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/parameter_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/pooling_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/power_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/prelu_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/python_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/recurrent_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/reduction_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/relu_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/reshape_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/rnn_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/scale_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/sigmoid_cross_entropy_loss_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/sigmoid_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/silence_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/slice_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/softmax_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/softmax_loss_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/split_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/spp_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/swish_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/tanh_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/threshold_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/tile_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/layers/window_data_layer.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/net.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/parallel.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/sgd_solvers.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/solver.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/solver_factory.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/syncedmem.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/test/test_caffe_main.hpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/test/test_gradient_check_util.hpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/util/benchmark.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/util/blocking_queue.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/util/cudnn.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/util/db.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/util/db_leveldb.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/util/db_lmdb.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/util/device_alternate.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/util/format.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/util/hdf5.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/util/im2col.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/util/insert_splits.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/util/io.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/util/math_functions.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/util/mkl_alternate.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/util/nccl.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/util/rng.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/util/signal_handler.h">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/include/caffe/util/upgrade_proto.hpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/python/caffe/_caffe.cpp">
+			<Option target="pycaffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/blob.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/common.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/data_transformer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/internal_thread.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layer_factory.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/absval_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/accuracy_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/argmax_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/base_conv_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/base_data_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/batch_norm_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/batch_reindex_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/bias_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/bnll_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/clip_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/concat_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/contrastive_loss_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/conv_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/crop_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/cudnn_conv_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/cudnn_deconv_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/cudnn_lcn_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/cudnn_lrn_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/cudnn_pooling_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/cudnn_relu_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/cudnn_sigmoid_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/cudnn_softmax_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/cudnn_tanh_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/data_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/deconv_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/dropout_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/dummy_data_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/eltwise_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/elu_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/embed_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/euclidean_loss_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/exp_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/filter_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/flatten_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/hdf5_data_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/hdf5_output_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/hinge_loss_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/im2col_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/image_data_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/infogain_loss_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/inner_product_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/input_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/log_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/loss_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/lrn_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/lstm_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/lstm_unit_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/memory_data_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/multinomial_logistic_loss_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/mvn_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/neuron_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/parameter_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/pooling_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/power_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/prelu_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/recurrent_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/reduction_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/relu_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/reshape_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/rnn_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/scale_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/sigmoid_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/silence_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/slice_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/softmax_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/softmax_loss_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/split_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/spp_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/swish_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/tanh_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/threshold_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/tile_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/layers/window_data_layer.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/net.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/parallel.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/proto/caffe.proto">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/solver.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/solvers/adadelta_solver.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/solvers/adagrad_solver.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/solvers/adam_solver.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/solvers/nesterov_solver.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/solvers/rmsprop_solver.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/solvers/sgd_solver.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/syncedmem.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_accuracy_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_argmax_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_batch_norm_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_batch_reindex_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_benchmark.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_bias_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_blob.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_caffe_main.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_common.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_concat_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_contrastive_loss_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_convolution_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_crop_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_data_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_data_transformer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_db.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_deconvolution_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_dummy_data_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_eltwise_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_embed_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_euclidean_loss_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_filler.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_filter_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_flatten_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_gradient_based_solver.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_hdf5_output_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_hdf5data_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_hinge_loss_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_im2col_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_image_data_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_infogain_loss_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_inner_product_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_internal_thread.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_io.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_layer_factory.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_lrn_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_lstm_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_math_functions.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_maxpool_dropout_layers.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_memory_data_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_multinomial_logistic_loss_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_mvn_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_net.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_neuron_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_platform.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_pooling_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_power_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_protobuf.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_random_number_generator.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_reduction_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_reshape_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_rnn_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_scale_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_slice_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_softmax_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_softmax_with_loss_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_solver.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_solver_factory.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_split_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_spp_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_stochastic_pooling.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_syncedmem.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_tanh_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_threshold_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_tile_layer.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_upgrade_proto.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/test_util_blas.cpp">
+			<Option target="test.testbin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/util/benchmark.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/util/blocking_queue.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/util/cudnn.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/util/db.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/util/db_leveldb.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/util/db_lmdb.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/util/hdf5.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/util/im2col.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/util/insert_splits.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/util/io.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/util/math_functions.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/util/signal_handler.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/util/upgrade_proto.cpp">
+			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/gtest/gtest-all.cpp">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/gtest/gtest.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/tools/caffe.cpp">
+			<Option target="caffe.bin"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/tools/compute_image_mean.cpp">
+			<Option target="compute_image_mean"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/tools/convert_imageset.cpp">
+			<Option target="convert_imageset"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/tools/extract_features.cpp">
+			<Option target="extract_features"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/tools/upgrade_net_proto_binary.cpp">
+			<Option target="upgrade_net_proto_binary"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/tools/upgrade_net_proto_text.cpp">
+			<Option target="upgrade_net_proto_text"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/tools/upgrade_solver_proto_text.cpp">
+			<Option target="upgrade_solver_proto_text"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake/ConfigGen.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake/Cuda.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake/Dependencies.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake/Misc.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake/ProtoBuf.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake/Summary.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake/Targets.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake/Uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake/Utils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake/External/gflags.cmake">
+			<Option virtualFolder="CMake Files\cmake\External\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake/External/glog.cmake">
+			<Option virtualFolder="CMake Files\cmake\External\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake/Modules/FindGFlags.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake/Modules/FindGlog.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake/Modules/FindLMDB.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake/Modules/FindLevelDB.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake/Modules/FindNumPy.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake/Modules/FindSnappy.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake/Modules/FindvecLib.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake/Templates/CaffeConfig.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\Templates\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/cmake/Templates/caffe_config.h.in">
+			<Option virtualFolder="CMake Files\cmake\Templates\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/BoostDetectToolset-1.76.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/Boost-1.76.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Boost-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/Boost-1.76.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Boost-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_headers-1.76.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_headers-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_headers-1.76.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_headers-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_system-1.76.0/boost_system-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_system-1.76.0/boost_system-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_system-1.76.0/libboost_system-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_system-1.76.0/libboost_system-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_system-1.76.0/libboost_system-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_system-1.76.0/libboost_system-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_thread-1.76.0/boost_thread-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_thread-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_thread-1.76.0/boost_thread-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_thread-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_thread-1.76.0/libboost_thread-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_thread-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_thread-1.76.0/libboost_thread-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_thread-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_filesystem-1.76.0/boost_filesystem-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_filesystem-1.76.0/boost_filesystem-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_filesystem-1.76.0/libboost_filesystem-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_filesystem-1.76.0/libboost_filesystem-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_filesystem-1.76.0/libboost_filesystem-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_filesystem-1.76.0/libboost_filesystem-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_python-1.76.0/boost_python-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_python-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_python-1.76.0/boost_python-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_python-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_python-1.76.0/libboost_python-variant-mt-shared-py3.9.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_python-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_python-1.76.0/libboost_python-variant-mt-static-py3.9.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_python-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_python-1.76.0/libboost_python-variant-shared-py3.9.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_python-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/../../../../usr/local/lib/cmake/boost_python-1.76.0/libboost_python-variant-static-py3.9.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_python-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/gtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\gtest\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\caffe\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/src/caffe/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\caffe\test\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tools\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/python/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\python\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/matlab/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\matlab\"/>
+		</Unit>
+		<Unit filename="/Users/hamidwakili/Documents/caffe/docs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\docs\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
